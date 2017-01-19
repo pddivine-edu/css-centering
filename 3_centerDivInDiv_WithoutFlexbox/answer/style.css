@@ -1,0 +1,30 @@
+:root {
+  --divHeight: 100px;
+}
+
+div {
+  background-color: lightgreen;
+}
+
+/* 
+  Horizonally and vertically center the yellow div within the green div
+  Use: position, left, top, margin-top, margin-left
+  Avoid using: flexbox
+*/
+#center_Z_Outer {
+  width: var(--divHeight);
+  height: var(--divHeight);
+  position: relative;
+}
+
+#center_Z_Inner {
+  background-color: yellow;
+  width: calc(var(--divHeight)/2);
+  height: calc(var(--divHeight)/2);;
+
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-top: -25px;
+  margin-left: -25px;
+}

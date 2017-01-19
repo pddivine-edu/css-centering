@@ -1,0 +1,17 @@
+:root {
+  --divHeight: 100px;
+}
+
+div {
+  background-color: lightgreen;
+  width: var(--divHeight);
+  height: var(--divHeight);
+}
+
+/*
+  Horizonally and vertically center the 'X' within the div
+  Use: text-align, vertical-align, and line-height
+*/
+#center_X {
+  
+}

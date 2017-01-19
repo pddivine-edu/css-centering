@@ -1,0 +1,24 @@
+:root {
+  --divHeight: 100px;
+}
+
+div {
+  margin: 5px;
+  background-color: lightgreen;
+  width: var(--divHeight);
+  height: var(--divHeight);
+}
+
+/*
+  Horizonally and vertically center the span with text 'Y' within the div
+  Use: text-align, vertical-align, and line-height
+*/
+#center_Y_Outer {
+  text-align: center;
+  vertical-align: middle;
+   line-height: var(--divHeight);
+}
+
+#center_Y_Inner {
+  background-color: yellow;
+}
